@@ -1,8 +1,1 @@
-{
-  "build": {
-    "outputDirectory": ".output",
-    "installCommand": "bun install --frozen-lockfile",
-    "devCommand": "bun run dev",
-    "buildCommand": "bun run build"
-  }
-}
+{}
