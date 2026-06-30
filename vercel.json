@@ -1,9 +1,0 @@
-{
-  "src": "kbs-luxe-front-main",
-  "builds": [
-    {
-      "src": ".output/functions/__server.func/index.mjs",
-      "use": "@vercel/node"
-    }
-  ]
-}
