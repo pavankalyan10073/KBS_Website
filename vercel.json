@@ -2,17 +2,17 @@
   "version": 2,
   "builds": [
     {
-      "src": "kbs-luxe-front-main/server.ts",
+      "src": "kbs-luxe-front-main/.output/functions/__server.func/index.mjs",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["kbs-luxe-front-main/**/*.{ts,tsx,css,json}"]
+        "includeFiles": ["kbs-luxe-front-main/.output/**/*"]
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "kbs-luxe-front-main/server.ts"
+      "dest": "kbs-luxe-front-main/.output/functions/__server.func/index.mjs"
     }
   ]
 }
