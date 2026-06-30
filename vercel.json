@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "kbs-luxe-front-main/server.ts": {
+      "runtime": "nodejs20.x",
+      "includeFiles": ["kbs-luxe-front-main/**/*.{ts,tsx,css,json}", "kbs-luxe-front-main/public/**/*"]
+    }
+  }
+}
