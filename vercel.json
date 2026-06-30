@@ -1,15 +1,10 @@
 {
   "frameworkPreset": "none",
   "build": {
+    "cwd": "kbs-luxe-front-main",
     "outputDirectory": ".output",
     "installCommand": "bun install --frozen-lockfile",
     "devCommand": "bun run dev",
     "buildCommand": "bun run build"
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/.output/functions/__server.func/index.mjs"
-    }
-  ]
+  }
 }
