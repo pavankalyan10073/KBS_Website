@@ -1,18 +1,3 @@
 {
-  "outputDirectory": ".output",
-  "builds": [
-    {
-      "src": ".output/functions/__server.func/index.mjs",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [".output/**/*"]
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": ".output/functions/__server.func/index.mjs"
-    }
-  ]
+  "outputDirectory": ".output"
 }
