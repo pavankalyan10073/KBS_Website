@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "kbs-luxe-front-main/.output/functions/**/*.mjs": {
-      "runtime": "nodejs20.x"
-    }
-  }
-}
