@@ -1,15 +1,7 @@
 {
-  "src": "kbs-luxe-front-main",
-  "builds": [
-    {
-      "src": ".output/functions/__server.func/index.mjs",
-      "use": "@vercel/node"
+  "functions": {
+    "kbs-luxe-front-main/.output/functions/**/*.mjs": {
+      "runtime": "nodejs20.x"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/.output/functions/__server.func/index.mjs"
-    }
-  ]
+  }
 }
