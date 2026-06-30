@@ -1,7 +1,0 @@
-{
-  "functions": {
-    ".output/functions/__server.func/index.mjs": {
-      "runtime": "nodejs20.x"
-    }
-  }
-}
