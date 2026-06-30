@@ -1,0 +1,9 @@
+{
+  "frameworkPreset": "none",
+  "build": {
+    "outputDirectory": ".output",
+    "installCommand": "bun install",
+    "devCommand": "bun run dev",
+    "buildCommand": "bun run build"
+  }
+}
