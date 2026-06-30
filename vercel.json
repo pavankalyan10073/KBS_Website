@@ -1,8 +1,1 @@
-{
-  "src": "kbs-luxe-front-main",
-  "build": {
-    "installCommand": "bun install --frozen-lockfile",
-    "devCommand": "bun run dev",
-    "buildCommand": "bun run build"
-  }
-}
+{}
