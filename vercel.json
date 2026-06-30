@@ -1,3 +1,13 @@
 {
-  "outputDirectory": ".output"
+  "outputDirectory": ".output",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/.output/functions/__server.func/index.mjs"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/.output/functions/__server.func/index.mjs"
+    }
+  ]
 }
