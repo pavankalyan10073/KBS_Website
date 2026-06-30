@@ -1,0 +1,8 @@
+{
+  "build": {
+    "outputDirectory": "kbs-luxe-front-main/.output",
+    "installCommand": "bun install --frozen-lockfile",
+    "devCommand": "bun run dev",
+    "buildCommand": "bun run build"
+  }
+}
